@@ -18,11 +18,11 @@ ext {
     projectName = 'flexbox-layout'
     projectDesc = 'Flexbox for Android'
 
-    githubUrl = 'https://github.com/google/flexbox-layout'
+    githubUrl = 'https://github.com/Hotmart-Org/flexbox-layout'
 
-    mavenGroup = 'com.google.android'
-    mavenArtifactId = 'flexbox'
-    mavenVersion = '0.3.2'
+    mavenGroup = 'com.github.Hotmart-Org'
+    mavenArtifactId = 'flexbox-layout'
+    mavenVersion = '0.3.3'
 
     bintrayOrg = 'google'
 }
