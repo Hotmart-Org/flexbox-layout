@@ -22,7 +22,7 @@ ext {
 
     mavenGroup = 'com.github.Hotmart-Org'
     mavenArtifactId = 'flexbox-layout'
-    mavenVersion = '0.3.3'
+    mavenVersion = '0.3.4'
 
     bintrayOrg = 'google'
 }
