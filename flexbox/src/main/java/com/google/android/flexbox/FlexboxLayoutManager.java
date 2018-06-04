@@ -2242,7 +2242,7 @@ public class FlexboxLayoutManager extends RecyclerView.LayoutManager implements 
         int maxPosition = getPosition(lastReferenceView);
         int laidOutArea = Math.abs(mOrientationHelper.getDecoratedEnd(lastReferenceView) -
                 mOrientationHelper.getDecoratedStart(firstReferenceView));
-        int firstLinePosition = mFlexboxHelper.mIndexToFlexLine[minPosition];
+        int firstLinePosition = minPosition != NO_POSITION ? mFlexboxHelper.mIndexToFlexLine[minPosition] : 0;
         if (firstLinePosition == 0 || firstLinePosition == NO_POSITION) {
             return 0;
         }
